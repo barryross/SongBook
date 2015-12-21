@@ -1,7 +1,7 @@
 {
-  "name": "route_practice",
+  "name": "SongBook",
   "version": "1.0.0",
-  "description": "Practice with route",
+  "description": "A MEAN app allowing songwriters to manage their lyrics",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

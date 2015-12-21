@@ -3,11 +3,9 @@ Author: Barry Ross
 
 ---
 
-
 ###Description
 
-This is my first complete MEAN stack app.  
-This is a simple application offering songwriters a place to store their lyrics.  
+A MEAN app offering songwriters a place to manage their lyrics
 
 ---
 #Features
@@ -21,7 +19,7 @@ This is a simple application offering songwriters a place to store their lyrics.
 FRONTEND:
 
 * Angular
-  * ui-router fr state changes
+  * ui-router for state changes
   * ngResource for CRUD operations
 
 * HTML5/CSS
@@ -35,6 +33,7 @@ BACKEND
 
 -------------
 
-Some resources I found very helpul
-[MEAN Stack tutorial](https://thinkster.io/mean-stack-tutorial)
-[CRUD Movie example](http://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/)
+#Resources
+##I found helpful
+* [MEAN Stack tutorial](https://thinkster.io/mean-stack-tutorial)
+* [CRUD Movie example](http://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/)

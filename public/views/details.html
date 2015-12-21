@@ -1,0 +1,11 @@
+<!-- for the song details state -->
+<header ng-include src="'views/partial-head.html'"></header>
+  <ul>
+    <li>ID: {{song._id}}</li>
+    <li>Genre: {{song.genre}}</li>
+    <li>Title: {{song.title}}</li>
+  </ul>
+  <hr>
+    <div>{{song.lyrics}}</div>
+  <hr>
+<a class="btn btn-primary" ui-sref="editSong({id:song._id})">Edit</a>

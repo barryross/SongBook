@@ -1,0 +1,22 @@
+<!-- used in new.html and edit.html -->
+  <div class="form-group">
+    <label for="title" class="control-label">Title</label>
+    <input class="form-control" name="title" id="title" type="text" required placeholder="Title" ng-model="song.title"></input>
+  </div>
+
+  <div class="form-group">
+      <label for="genre" class="control-label">Genre</label>
+        <select class="form-control" name="genre" id="genre" ng-model="song.genre" ng-options="genre as genre for genre in genres">
+        </select>
+  </div>
+
+  <div class="form-group">
+    <label for="lyrics" class="control-label" >Lyrics</label>
+    <textarea name="lyrics" id="lyrics" placeholder="Lyrics" ng-model="song.lyrics">{{song.lyrics}}</textarea>
+  </div>
+
+  <div class="form-group">
+    <div class="">
+      <input type="submit" class="btn btn-success" value="{{button}}">
+    </div>
+  </div>

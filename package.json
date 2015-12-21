@@ -1,0 +1,19 @@
+{
+  "name": "route_practice",
+  "version": "1.0.0",
+  "description": "Practice with route",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "routes"
+  ],
+  "author": "Barry Ross",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.3"
+  }
+}

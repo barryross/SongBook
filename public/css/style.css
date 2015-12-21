@@ -1,0 +1,75 @@
+body{
+  font-size:20px;
+}
+header{
+  padding:20px;
+}
+a:hover{
+  text-decoration:none;
+}
+p.desc{
+  font-style:italic;
+}
+
+
+li{
+  list-style-type:none;
+  text-transform:capitalize;
+  padding:10px;
+  transition: background-color .2s ease-out;
+}
+/* Song list & controls */
+li:hover{
+  cursor:pointer;
+  background:#fcfcfc;
+}
+
+li a{
+  display:inline-block;
+  padding:4px;
+}
+
+li:hover a{
+  background-color:rgba(245,245,245,1);
+}
+
+li .songControls{
+  float:right;
+  text-transform:uppercase;
+  opacity:0;
+  transition: opacity .25s ease-out;
+}
+
+.songControls span{
+  padding:0px 10px;
+}
+
+li:hover .songControls{
+  opacity:1;
+}
+
+.round{
+  -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+}
+
+.edit{
+  color:gray;
+}
+.delete{
+  color:red;
+}
+
+/* FORM */
+input, textarea{
+  display:block;
+  padding:10px;
+  margin: 10px 0px;
+}
+
+textarea{
+  min-height:100px;
+  width:100%;
+
+}

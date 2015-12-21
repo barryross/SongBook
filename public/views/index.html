@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SongBook</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body ng-app="songApp">
+    <base href="/"></base>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="home">SongBook</a>
+      </div>
+    </div>
+
+  </nav>
+    <div class="col-md-5 col-md-offset-1" ui-view="left"></div>
+    <div class="col-md-5 col-md-offset-0" ui-view="right"></div>
+    <!-- angular library for routing on frontend -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+    <script src="js/angularApp.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+    <!-- angular ngResource so we can use $resource dependency for easier CRUD -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular-resource.js"></script>
+
+  </body>
+</html>

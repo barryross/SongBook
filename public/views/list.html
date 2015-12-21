@@ -1,0 +1,12 @@
+<header ng-include src="'views/partial-head.html'"></header>
+<div class="well">
+  <ul>
+    <li class="round" ng-repeat="song in songs">
+      <span><a class="round" ui-sref="songView({id:song._id})">{{song.title}}</a></span>
+      <span class="songControls">
+        <button ui-sref="editSong({id:song._id})" class="btn btn-warning">Edit</button>
+        <button ng-click="removeSong(song._id)" class="btn btn-danger">Delete</button>
+      </span>
+    </li>
+  </ul>
+</div>

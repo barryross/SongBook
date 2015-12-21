@@ -10,7 +10,7 @@ A MEAN app offering songwriters a place to manage their lyrics
 ---
 #Features
 
-* Create, read, update and delete songs from your list
+* Manage (add, edit, delete) songs in your songbook
 * Lightweight & responsive
 
 ---
@@ -32,6 +32,13 @@ BACKEND
 * Node.js as the http server
 
 -------------
+
+# FUTURE Features
+
+* Store genres in a collection in MongoDB
+* collaborate in real-time using Websockets
+
+---
 
 #Resources
 ##I found helpful

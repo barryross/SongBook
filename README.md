@@ -1,20 +1,20 @@
-#SongBook
+# SongBook
 Author: Barry Ross
 
 ---
 
-###Description
+### Description
 
 A MEAN app offering songwriters a place to manage their lyrics
 
 ---
-#Features
+# Features
 
 * Manage (add, edit, delete) songs in your songbook
 * Lightweight & responsive
 
 ---
-#Technical
+# Technical
 
 FRONTEND:
 
@@ -40,7 +40,7 @@ BACKEND
 
 ---
 
-#Resources
-##I found helpful
+# Resources
+## I found helpful
 * [MEAN Stack tutorial](https://thinkster.io/mean-stack-tutorial)
 * [CRUD Movie example](http://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/)
